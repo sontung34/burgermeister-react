@@ -13,7 +13,7 @@
         price:15,
         emoji: "🍔",
         id:"sdsa",
-        image: "/img/alle-klassen.jpg"
+        image: "/img/alleklassen.jpg"
     },
         {
         name: "Pommes Bacon",
