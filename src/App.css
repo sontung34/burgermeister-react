@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+/* layout */
+body{
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  margin-bottom: 100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header--image{
+  background-image: url("/public/img/headerpic.jpg");
+  height: 400px;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.dish--content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  margin-left: 10px;
+}
+.order--container{
+  width: 800px;
+  margin: 40px auto;
+}
+.order--summary{
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+/* typo */
+
+h1,h2,h3,h4{
+  margin: 5px;
+  background-color: white;
+
+}
+h1{
+  font-size: 3em;
+}
+h2{
+  font-size: 2.5em;
+}
+
+.dish--image{
+  width: 200px;
+  height: 200px;
+
+}
+h3{
+  font-size: 2em;
+}
+h4{
+  font-style: italic;
+  color: grey;
+  font-size: 1em;
+}
+.addButton{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+}
+.addButton:hover{
+  background-color: #16DB99;
+  border: none;
+  color:aliceblue;
+  width: 35px;
+  height: 35px;
+}
+.removeButton{
+  border: grey solid 1px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 1em;
+  font-style: italic;
+}
+.removeButton:hover{
+  border: red 1px solid;
+  font-size: 1.1em;
+}
+.totalvalue-container{
+  width: 200px;
+  margin: 10px auto;
+}
+.order--button--container{
+  width: 800px;
+  margin: 40px auto;
+}
+.order--button{
+  width: 800px;
+  height: 40px;
+  background-color: #16DB99;
   color: white;
+  border: none;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.order--button:hover{
+  box-shadow: 1px 1px 1px #16DB99;
+  font-size: 1.1rem;
 }
+.message--container{
+  width: 800px;
+  margin: 50px auto;
+  text-align: center;
+} 
+/* form format */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form--container{
+  width: 800px;
+  margin: 0 auto;
+  
+}
+.form--title{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.form--content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.form--input{
+  width: 790px;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+}
+.close--button{
+  width: 30px;
+  height: 30px;
+  background-color: #e63946;
+  color: aliceblue;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+.close--button:hover{
+  width: 35px;
+  height: 35px;
+}
+.pay--button{
+  width: 100%;
+  height: 40px;
+  background-color: #16DB99;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px
 }
