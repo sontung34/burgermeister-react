@@ -5,7 +5,7 @@
         id:"dxs",
         price: 12 ,
         emoji: "🥪",
-        image: "img/hamburger.jpg",
+        image: "https://burger-meister.de/wp-content/uploads/2021/06/Burgermeister-Hamburger-2.jpg",
     },
     {
         name: "Meister aller Klassen",
@@ -13,7 +13,7 @@
         price:15,
         emoji: "🍔",
         id:"sdsa",
-        image: "/img/alleklassen.jpg"
+        image: "https://burger-meister.de/wp-content/uploads/2021/06/Burgermeister-Meister-Aller-Klassen.jpg"
     },
         {
         name: "Pommes Bacon",
@@ -21,7 +21,15 @@
         price:5,
         emoji: "🍟",
         id:"ddjs",
-        image: "img/pommes.jpg"
+        image: "https://burger-meister.de/wp-content/uploads/2021/06/Burgermeister-Cheese-Fries.jpg"
+    },
+    {
+        name: "Ubermeister",
+        ingredients: ["Käse" ,"Bacon" ,"Gebratene Zwiebeln" , "Gegrillte Rot Paprika" , "Mayo"],
+        price:12,
+        emoji: "🍟",
+        id:"1312",
+        image: "https://burger-meister.de/wp-content/uploads/2022/06/Burgermeister-Ubermeister.jpg"
     }
 ]
 export default data
