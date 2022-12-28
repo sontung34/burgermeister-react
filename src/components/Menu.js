@@ -4,7 +4,7 @@ export default function Menu(props){
     return (
         <div className="item">
             <div>
-                <img src={`${props.item.image}`} alt = "food offered at Burgermeister" className = "dish--image"/>
+                <img src={`${props.item.image}`} alt = "Burger at Burgermeister" className = "dish--image"/>
             </div>
                 <div className='dish--content'>
                     <div>
