@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/burgermeister-react/static/css/main.f3f6cfea.css",
-    "main.js": "/burgermeister-react/static/js/main.68da9bd9.js",
+    "main.js": "/burgermeister-react/static/js/main.671b1f49.js",
     "static/js/787.3adb45fa.chunk.js": "/burgermeister-react/static/js/787.3adb45fa.chunk.js",
     "static/media/headerpic.jpg": "/burgermeister-react/static/media/headerpic.4c221c1034d0e8af7a18.jpg",
     "index.html": "/burgermeister-react/index.html",
     "main.f3f6cfea.css.map": "/burgermeister-react/static/css/main.f3f6cfea.css.map",
-    "main.68da9bd9.js.map": "/burgermeister-react/static/js/main.68da9bd9.js.map",
+    "main.671b1f49.js.map": "/burgermeister-react/static/js/main.671b1f49.js.map",
     "787.3adb45fa.chunk.js.map": "/burgermeister-react/static/js/787.3adb45fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3f6cfea.css",
-    "static/js/main.68da9bd9.js"
+    "static/js/main.671b1f49.js"
   ]
 }
